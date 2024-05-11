@@ -1,0 +1,29 @@
+Test Engineer YouTube
+corporate_fare
+YouTube
+place
+Bengaluru, Karnataka, India
+Minimum qualifications:
+
+    Bachelor's degree or equivalent practical experience.
+    2 years of experience in coding, developing test methodologies, writing test plans, creating test cases, and debugging.
+
+
+Preferred qualifications:
+
+    Master's degree in Computer Science, Electrical Engineering, or a related field.
+    2 years of experience in specialized testing such as production testing, system integration testing, etc.
+    Ability to program in C, C++, Java, or Python.
+
+About the job
+
+At Google, our philosophy is build it, break it and then rebuild it better. That thinking is at the core of how we approach testing at Google. Unlike roles with similar names at the other companies, Test Engineers at Google aren't manual testers -- you write scripts to automate testing and create tools so developers can test their own code. As a Test Engineer, you navigate Google's massive codebase, identify weak spots and constantly design better and creative ways to break software and identify potential problems. You'll have a huge impact on the quality of Google's growing suite of products and services.
+
+At YouTube, we believe that everyone deserves to have a voice, and that the world is a better place when we listen, share, and build community through our stories. We work together to give everyone the power to share their story, explore what they love, and connect with one another in the process. Working at the intersection of cutting-edge technology and boundless creativity, we move at the speed of culture with a shared goal to show people the world. We explore new ideas, solve real problems, and have fun — and we do it all together.
+Responsibilities
+
+    Utilize existing automation tools or scripts to improve product and engineering health.
+    Develop test plans based on Product test strategy, and help execute test plan reviews with peers.
+    Define the test framework, test preconditions, and other test control and reporting functions to enable others to test functionality.
+    Help improve existing test infrastructure or create new test infrastructure to increase efficiency and productivity in test case development, scheduling, or deployment. 
+    Participate in product design review with product managers, software/hardware engineers, and other stakeholders to contribute to product design, testability, and implementation.

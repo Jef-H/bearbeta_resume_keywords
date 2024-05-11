@@ -1,0 +1,60 @@
+Jef Hinton
+ DevOps Advocate & Space Geek
+ Experience
+ Staff Data Engineer- Advanced Analytics Tech Lead
+ Lockheed Martin, Remote, US (Nov 2023- Present)
+ Championsoftware stability & developing a resilient cloud based data pipeline- Python, AWS (EC2, S3, Lambda)
+ Support formal and informal mentoring of junior engineers & create custom development plans.
+Organize project roadmap & remove blockers for development team
+Overhaul code review processes, deployment strategies & bug management plans
+Utilize textract and OCR to make data available to our users and partners.
+Createaproject culture that the team is excited to be a part of.
+ Senior Data Engineer- Advanced Analytics
+ Lockheed Martin, Remote, US (Dec 2021- Nov 2023)
+Datainfrastructure & Machine Learning / AI Dev- Python, AWS (EC2, S3, CloudWatch)
+Collaborate with cross functional teams to brainstorm win/win solutions.
+Leveraging AI/ML to cook up precedence and bottleneck detection for the latest F-35 recipe.
+Refactor data pipelines to leverage parallelization and distributed computing capabilities.
+ Senior Software Engineer.- Deep Space Exploration
+ Lockheed Martin Littleton, Colorado (Apr 2020- Dec 2021)
+GroundDataSystem Development- C++ Bash, Java, Python, Docker, Linux
+PrimeGDSengineer for Lucy spacecraft launch team-> Liftoff 10/16/21
+Reviewedspacecraft data & performed anomaly resolution inside and outside the clean room.
+Spearheaded new feature development and held down the fort as an interim scrum master.
+ Software Engineer- Embedded Flight Software
+ Lockheed Martin Littleton, Colorado (Aug 2016- Apr 2020)
+Devopsexperience with creating Infrastructure as Code (IaC)
+Built continuous improvement pipelines (CI/CD) gitlab runners & docker containers.
+Refactored flight code to remove obsolete design patterns. Death to singletons!
+Developed Flight Software tools in Python, Java, C++ and Perl
+Learnedpytest to deliver unit test and functional test verification processes
+Maintained mountains of documentation
+ Data Analyst- Robotics Reporting
+ John Deere Cedar Falls , Iowa (Aug 2013- Nov 2015)
+CreateTableau dashboards to display data collected from machining robots
+Implement web displays for real time information for each automation cell
+Designed &Implemented VBA macros to automate tasks which resulted in time savings of 913 hours per year.
+Datacleaning experience, utilized exports from SAP to create recurring metrics & exploratory business insights.
+ Resident Assistant & Senior Resident Assistant
+ University of Northern Iowa Cedar Falls, Iowa (Aug 2013- May 2016)
+Responsible for development and training of 15 team members
+Facilitated activities amongst 54 students and created house leaders
+Participated in interview processing and selected new Resident Assistants
+ Education
+ Colorado School of Mines Golden, CO (Jan 2019- Present)
+Masters of Science- Space Resources
+Relevant Coursework: Space Systems Engineering, Advanced Planetary Geology, Design of Experiments
+Performed budget analysis & system design for human spaceflight to Mars
+ University of Northern Iowa Cedar Falls, Iowa (Aug 2012- May 2016)
+Bachelors of Arts in Management Information Systems
+Undergraduate research in Electro-Magnetic Pulses on university campuses
+Coursestaken in SQL, PHP, Tableau, R, HTML, CSS and Network Security.
+Experience with UNIX/Linux, Solaris, Python, C++, Java, RESTFUL APIs, Service Oriented Architecture.
+ Research
+ NASA Big Idea Challenge: Hardware Test Engineer
+ Demonstrated proof of concept of cordless Lunar power beaming.
+ Composed simulations and animations in Blender
+ Wrote small-sat test plan & executed in Lunar regolith test bed.
+ Publications:
+ 1. Aframework for Lunar Resource Extraction Site Investigations
+ 2. Lunar Autonomous Scalable Emitter and Receiver (LASER) system
