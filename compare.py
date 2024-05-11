@@ -37,21 +37,6 @@ def get_all_words(input_file):
         input_file_description = file.read()
     return input_file_description
 
-def compare_keywords(resume, job_description):
-    # get total number of words in job description 
-    # get number of matches from resume 
-    # return percent complete
-    # return top 3 suggestions 
-    word_denominator = len(job_description)
-
-
-# Read job description from file
-#with open("job_description.txt", "r") as file:
-#    job_description = file.read()
-
-# Extract keywords
-# keywords = extract_keywords(job_description)
-
 # Print the keywords
 def print_keywords(keywords):
     print("Keywords extracted from the job description:")
