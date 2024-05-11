@@ -93,7 +93,7 @@ def compare():
 
     optional_additions = get_missing_keywords(job_description_keywords_extracted, resume_keywords_extracted)
 
-    print("Optional Additons =")
+    print("Consider adding some of these keywords to your resume")
     print(optional_additions)
 
 
