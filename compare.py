@@ -1,12 +1,16 @@
-import nltk
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+from collections import Counter
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-from collections import Counter
+import argparse
+import fitz
+import nltk
 
 # Download NLTK resources if not already downloaded
-# nltk.download("punkt")
-# nltk.download("stopwords")
-
+nltk.download("punkt", quiet=True)
+nltk.download("stopwords", quiet=True)
 
 def extract_keywords(text):
     # Tokenize the text
@@ -26,11 +30,17 @@ def extract_keywords(text):
     return word_freq.most_common()
 
 
-def get_all_words(input_file):
+def get_all_words_txt(input_file, input_pdf_path):
     # take a string input file
     # Read job description from file
-    with open(input_file, "r") as file:
-        input_file_description = file.read()
+    input_file_description = ""
+    if input_pdf_path:
+        doc = fitz.open(input_pdf_path)
+        for page in doc:
+            input_file_description += page.get_text()
+    else:
+        with open(input_file, "r") as file:
+            input_file_description = file.read()
     return input_file_description
 
 
@@ -68,10 +78,17 @@ def get_missing_keywords(job_description_keywords, resume_keywords):
 
 
 def compare():
-    resume_keywords = get_all_words("resume.txt")
+
+    parser = argparse.ArgumentParser()
+    # Adding optional argument to input pdf resume
+    parser.add_argument("-r", "--Resume", help = "Specify PDF input path for Resume input")
+    parser.add_argument("-j", "--Job", help = "Specify PDF input path for Job Description input")
+    args = parser.parse_args()
+
+    resume_keywords = get_all_words_txt("resume.txt", args.Resume)
     resume_keywords_extracted = extract_keywords(resume_keywords)
 
-    job_description_keywords = get_all_words("job_description.txt")
+    job_description_keywords = get_all_words_txt("job_description.txt", args.Job)
     job_description_keywords_extracted = extract_keywords(job_description_keywords)
 
     optional_additions = get_missing_keywords(

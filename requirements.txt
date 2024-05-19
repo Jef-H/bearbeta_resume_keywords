@@ -1,1 +1,4 @@
+argparse
 nltk
+# PyPDF2
+pymupdf
