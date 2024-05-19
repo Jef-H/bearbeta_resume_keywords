@@ -30,7 +30,7 @@ def extract_keywords(text):
     return word_freq.most_common()
 
 
-def get_all_words_txt(input_file, input_pdf_path):
+def get_all_words(input_file, input_pdf_path):
     # take a string input file
     # Read job description from file
     input_file_description = ""
@@ -85,10 +85,10 @@ def compare():
     parser.add_argument("-j", "--Job", help = "Specify PDF input path for Job Description input")
     args = parser.parse_args()
 
-    resume_keywords = get_all_words_txt("resume.txt", args.Resume)
+    resume_keywords = get_all_words("resume.txt", args.Resume)
     resume_keywords_extracted = extract_keywords(resume_keywords)
 
-    job_description_keywords = get_all_words_txt("job_description.txt", args.Job)
+    job_description_keywords = get_all_words("job_description.txt", args.Job)
     job_description_keywords_extracted = extract_keywords(job_description_keywords)
 
     optional_additions = get_missing_keywords(
